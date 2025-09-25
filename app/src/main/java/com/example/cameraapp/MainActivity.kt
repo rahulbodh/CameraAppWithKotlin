@@ -49,6 +49,10 @@ class MainActivity : AppCompatActivity() {
 
     private var cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA;
 
+    private var graphicOverlay: GraphicOverlay? = null
+    private var preview: CameraSourcePreview? = null
+
+
     private val activityResultLauncher =
         registerForActivityResult(
             ActivityResultContracts.RequestMultiplePermissions()

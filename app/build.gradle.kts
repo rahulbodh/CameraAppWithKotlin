@@ -57,4 +57,5 @@ dependencies {
     implementation ("androidx.camera:camera-extensions:${camerax_version}")
 
     implementation("com.google.mlkit:face-mesh-detection:16.0.0-beta1")
+    implementation("com.google.mlkit:segmentation-selfie:16.0.0-beta6")
 }
